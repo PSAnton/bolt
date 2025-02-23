@@ -125,6 +125,9 @@ export default defineConfig((config) => {
         },
       },
     },
+    server: {
+      allowedHosts: ['bolt-production-cb90.up.railway.app', 'localhost'],
+    },
   };
 });
 
